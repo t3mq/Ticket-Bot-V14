@@ -1,7 +1,7 @@
 module.exports = {
-    token: "TOKEN",
-    ticket_channel: "1136268219485798444",
-    ticket_category: "1136268219485798443",
-    ticket_logs: "1136682217800745000",
-    support_team: "1136590449855963219"
+    token: "TOKEN_BOT",
+    ticket_channel: "CHANNEL_ID",
+    ticket_category: "CATEGORY_ID",
+    ticket_logs: "CHANNEL_ID",
+    support_team: "ROLE_ID"
 }
