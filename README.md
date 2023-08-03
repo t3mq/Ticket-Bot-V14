@@ -4,10 +4,10 @@ Ticket Bot is a discord ticket bot with buttons / select menu made with Discord.
 
 ## How to install ?
 
-You need to have Node.JS 16+
+You need to have Node.JS 18+
 ``````bash
-git clone https://github.com/Xiaotoxdev/ticket-bot.git
-cd ticket-bot
+git clone https://github.com/ZqxDev/Ticket-Bot-V14.git
+cd Ticket-Bot-V14
 npm i
 ``````
 
