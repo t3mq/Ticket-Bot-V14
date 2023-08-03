@@ -14,7 +14,7 @@ npm i
 ## How to config ?
 
 ```js
-//./settings/config.js
+//./settings/config
 
 module.exports = {
     token: "TOKEN_BOT",
