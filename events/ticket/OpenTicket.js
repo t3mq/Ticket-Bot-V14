@@ -65,7 +65,7 @@ module.exports = {
                 });
             });
         } 
-        else if (interaction.customId === "question") {
+        else if (interaction.values[0] === "question") {
             interaction.channel.delete();
             let ticket = interaction.guild.channels.create({
                 name: `Ticket of ${interaction.user.username}`,
@@ -115,7 +115,7 @@ module.exports = {
                 });
             });
         }
-        else if (interaction.customId === "other") {
+        else if (interaction.values[0] === "other") {
             interaction.channel.delete();
             let ticket = interaction.guild.channels.create({
                 name: `Ticket of ${interaction.user.username}`,
