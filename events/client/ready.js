@@ -9,7 +9,8 @@ module.exports = {
         console.log(`[READY] ${client.user.tag} (${client.user.id}) is ready !`.green);
 
         let channelTicket = client.channels.cache.get(config.ticket_channel);
-        channelTicket.bulkDelete(2);
+        await channelTicket.send({ content: "." })
+        await channelTicket.bulkDelete(2);
 
         await channelTicket.send({
             embeds: [{
